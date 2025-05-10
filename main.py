@@ -3,7 +3,8 @@ from api.course import UCourse
 from requests import Session
 
 from ws import ws_connect
-
+pip install -r requirements.txt
+python main.py
 HEADERS = {
     "Accept": "application/json, text/javascript, */*; q=0.01",
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
